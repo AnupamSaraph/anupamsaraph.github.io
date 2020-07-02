@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## About
+**Anupam Saraph** is a Professor and a future designer recognized as a global expert on complex systems.
 
-You can use the [editor on GitHub](https://github.com/AnupamSaraph/anupamsaraph.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+As a future designer and a global expert on complex systems he helps individuals and organisations understand and design the future of their worlds. Together they address the toughest challenges, accomplish missions and achieve business goals. He also supports building capacity to address the challenges of today as well as to build future designs through teams and effective leadership. He is also widely known for pioneering work on designing urban nervous systems for smart cities, digital governance innovations, educational reforms, and reforms for designing sustainable and resilient organisations.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Anupam Saraph also supports building capacity to address the challenges of today as well as to build future designs through teams and effective leadership.
 
-### Markdown
+Anupam Saraph works with business and government executives, civil society leaders, politicians, generals, civil servants, police, trade unionists, community activists, United Nations and ASEAN officials, judges, writers, media, architects, designers, technologists, scientists, entrepreneurs, board members and business leaders of small, mid and large single and trans-national companies, religious leaders and artists across a dozen countries and various industry sectors to help them and their organisations succeed in their missions. As a member of the the World Economic Forum's [Global Agenda Council for Complex Systems](http://reports.weforum.org/global-agenda-council-on-complex-systems-2012-2014-info/) a founder life member of the [Club of Rome](), Indian National Association and as a member of the board of the International Network of Resource Information Centres ([The Balaton Group](http://www.balatongroup.org/)), and an advisor to the [Earth Charter](https://earthcharter.org/about-us/) he addresses planetory missions for a sustainable and resilient world.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Dr. Saraph has held CxO and ministerial level positions and serves as an independent director on the boards of Public and Private Sector companies and NGOs. As a Professor Sustainability and Governance of Complex Systems he mentors students and teaches systems, information systems, environmental systems and sustainable development at universities in Europe, Asia and the Americas.
 
-```markdown
-Syntax highlighted code block
+Dr. Saraph is also actively engaged in civil society where he participates in several environmental, resource and nature conservation initiatives, has authored draft legislations for river and natural resource conservation, right to good governance and has contributed to election and democratic reforms. Dr. Saraph is a regular columnist in newspapers and writes on issues of governance, future design, technology and education from a systems perspective.
 
-# Header 1
-## Header 2
-### Header 3
+Dr Saraph holds a PhD in designing sustainable systems from the faculty of Mathematics and Natural Sciences of the Rijksuniversiteit Groningen, the Netherlands.
 
-- Bulleted
-- List
+## This Website
+This website is a repository of the work of Dr. Anupam Saraph and his students. For example, you can access [COVID India Model](https://anupamsaraph.github.io/COVID-Simulation/) that simulates the spread of COVID here. Other projects will be listed here soon.
 
-1. Numbered
-2. List
+## Contact
+You can contact with him on [linkedin](https://www.linkedin.com/in/anupamsaraph/), on [slideshare](https://www.slideshare.net/anupamsaraph), [twitter](https://twitter.com/AnupamSaraph) or by the more traditional email at anupam.saraph"at"saraph.in.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AnupamSaraph/anupamsaraph.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<a href="https://twitter.com/anupamsaraph?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @anupamsaraph</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
