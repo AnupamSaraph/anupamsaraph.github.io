@@ -1,0 +1,347 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+p {
+    margin: 0 0 0.8em 0;
+}
+
+.inverse {
+    color: black;
+    background-color: white;
+    border-style: dotted;
+    border-width: 1px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+/* NAV */
+.anchor {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #f7f3c5;
+    border-bottom: dotted 1px #cfcebe;
+    cursor: pointer;
+}
+
+.active,
+a:hover {
+    color: #57320e;
+    background-color: #ff0;
+    border-color: #d1cb7d;
+}
+
+.highlight {
+    background-color: #f5ec82;
+}
+
+.rightfloat {
+    float: right;
+    position: fixed;
+    z-index: 1;
+    bottom: 25px;
+    right: 20px;
+}
+
+/* Layout */
+/* For mobile phones: */
+.photo {
+    -webkit-shape-outside: url("images/Anupam Saraph 2018.png");
+    shape-outside: url("images/Anupam Saraph 2018.png");
+    shape-image-threshold: .4;
+    shape-margin: 10px;
+    /* float the element */
+    float: right;
+    right: 0;
+    bottom: 0;
+    margin-left: 1px;
+}
+
+.header {
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    /* Set the navbar to fixed position */
+    bottom: 0;
+    font-variant-caps: all-petite-caps;
+}
+
+.navbar,
+.header,
+.footer {
+    position: fixed;
+    background: white;
+    height: auto;
+    width: 100%;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    border-radius: 1%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    clear: both;
+    float: none;
+}
+
+.left {
+    width: 100%;
+    min-width: 100%;
+}
+
+.right {
+    width: 100%;
+    min-width: 100%;
+    padding-top: 15%;   
+}
+
+.section {
+    margin: auto;
+    width: 100%;
+    min-height: 100%;
+    height: max-content;
+    min-width: 94%;
+    padding-top: 25%;   
+    padding-bottom: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
+    align-content: center;
+}
+
+.tagline {
+    font-family: Georgia, Times, 'Times New Roman', Cambria, Cochin, serif;
+    font: italic;
+    font-weight: lighter;
+    position: fixed;
+    text-align: center;
+    left: 0px;
+    top: 115px;
+    border: black;
+    border-width: 1px;
+    border-style: dotted;
+    background-color: black;
+    color: white;
+}
+
+/* Typography */
+html {
+font-size: 100.01%;
+scroll-behavior: smooth;
+}
+
+body {
+display: flex;
+padding-left: 1%;
+padding-right: 1%;
+line-height: 1.5;
+font-size: 130%;
+color: #222;
+background: #fff;
+font-family: Garamond, Georgia, "Times New Roman", "Time Normal";
+height: 100%;
+}
+@media only screen and (orientation: landscape) {
+   
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+    }
+
+    /* Typography */
+    html {
+        font-size: 100.01%;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        display: flex;
+        padding-left: 1%;
+        padding-right: 1%;
+        line-height: 1.5;
+        font-size: 130%;
+        color: #222;
+        background: #fff;
+        font-family: Garamond, Georgia, "Times New Roman", "Time Normal";
+        height: 100%;
+    }
+
+    /* The navigation bar */
+    .navbar {
+        overflow: hidden;
+        /* Set the navbar to fixed position */
+        bottom: 0;
+        font-variant-caps: all-petite-caps;
+    }
+
+
+    /* Links inside the navbar */
+    .navbar a {
+        float: left;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 15px;
+        text-decoration: none;
+    }
+
+    /* NAV */
+    .anchor {
+        border: none;
+    }
+
+    a {
+        text-decoration: none;
+        outline: none;
+        color: black;
+        background-color: #f7f3c5;
+        border-bottom: dotted 1px #cfcebe;
+        cursor: pointer;
+    }
+
+    .active,
+    a:hover {
+        color: #57320e;
+        background-color: #ff0;
+        border-color: #d1cb7d;
+    }
+
+    .highlight {
+        background-color: #f5ec82;
+    }
+
+    .rightfloat {
+        float: right;
+        position: fixed;
+        z-index: 1;
+        bottom: 10px;
+        right: 20px;
+    }
+
+    .photo {
+        -webkit-shape-outside: url("images/Anupam Saraph 2018.png");
+        shape-outside: url("images/Anupam Saraph 2018.png");
+        shape-image-threshold: .4;
+        shape-margin: 10px;
+        /* float the element */
+        float: right;
+        right: 0;
+        bottom: 0;
+        margin-left: 1px;
+        z-index: 500;
+    }
+
+    .header {
+        left: 0;
+        top: 0;
+        position: fixed;
+    }
+
+    .footer {
+        left: 0;
+        bottom: 0;
+    }
+
+    .navbar,
+    .header,
+    .footer {
+        position: fixed;
+        background: white;
+        height: auto;
+        width: 100%;
+        text-align: left;
+        padding-top: 5px;
+        padding-left: 1%;
+        padding-bottom: 1%;
+        border-radius: 1%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Create two equal columns that sits next to each other */
+    .column {
+        float: left;
+    }
+
+    .left {
+        min-width: 0;
+        width: 70%;
+        z-index: 1000;
+    }
+
+    .right {
+        width: 30%;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+    }
+
+    .section {
+        margin: auto;
+        width: 90%;
+        min-height: 100%;
+        height: max-content;
+        padding-top: 20%;
+        padding-bottom: 8%;
+        align-content: center;
+    }
+    
+    .tagline {
+        font-family: Georgia, Times, 'Times New Roman', Cambria, Cochin, serif;
+        font: italic;
+        font-weight: lighter;
+        position: fixed;
+        text-align: right;
+        left: 400px;
+        top: 105px;
+        border: black;
+        border-width: 1px;
+        border-style: dotted;
+        background-color: black;
+        color: white;
+    }
+    
+}
+
