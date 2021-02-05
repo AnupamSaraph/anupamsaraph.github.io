@@ -8642,3 +8642,6 @@ input, select, textarea {
 		max-width: 40%;
 		height: auto;
 	}
+	.logo {
+		width: 100%;
+	}
