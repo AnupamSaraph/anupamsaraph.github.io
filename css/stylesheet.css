@@ -1,0 +1,275 @@
+    :root {
+        /* fonts */
+        --primary-font: "Source Serif Pro", serif;
+        --font-weight: 300;
+        --secondary-font: Raleway, "Source Sans Pro", sans-serif;
+
+        /* layout */
+        --min-top-margin: 1%;
+        --min-bottom-margin: 1%;
+        --min-left-margin: 5%;
+        --min-right-margin: 5%;
+
+        --top-margin: 1%;
+        --bottom-margin: 1%;
+        --left-margin: 0px;
+        --right-margin: 0px;
+
+        --padding-left: 20px;
+        --padding-right: 20px;
+        --flex-height: 96%;
+        --slide-height: 100vh;
+
+        --max-flex-width: calc(100vw - var(--left-margin) - var(--right-margin));
+        --max-flex-height: calc(100vh - var(--top-margin) - var(--bottom-margin));
+        --first-flex-child-width: 38%;
+        --second-flex-child-width: calc(var(--max-flex-width) - var(--first-flex-child-width));
+
+        --initial-flex-width: 30%;
+    }
+
+    html,
+    body {
+        height: max-content;
+        width: 100vw;
+    }
+
+    html {
+        /* overflow: hidden; */
+    }
+
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex-item {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: z-index 0s 1s;
+    }
+
+    .flex-item>* {
+        margin-top: calc(max(var(--min-top-margin), var(--top-margin) * 4));
+        margin-bottom: calc(max(var(--min-bottom-margin), var(--bottom-margin)));
+        margin-left: calc(max(var(--min-left-margin), var(--left-margin)));
+        margin-right: calc(max(var(--min-right-margin), var(--right-margin)));
+    }
+
+
+    @media (max-width: 600px) {
+        .flex-item {
+            flex-basis: 100%;
+        }
+    }
+
+    .content {
+        width: 100%;
+        max-width: calc(min(1200px, 90%));
+        margin-top: calc(var(--min-top-margin) * 4);
+        margin-left: calc(max(var(--min-left-margin), var(--left-margin)));
+        margin-right: calc(max(var(--min-right-margin), var(--right-margin)));
+    }
+
+
+    /* Typography */
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--primary-font);
+        font-weight: var(--font-weight);
+    }
+
+    .bodytext {
+        font-family: var(--secondary-font);
+        font-size: large;
+    }
+
+    .flex-item>h1 {
+        margin-bottom: 100px;
+    }
+
+    .logo {
+        position: relative;
+        top: margin-top: calc(max(var(--min-top-margin), var(--top-margin)));
+    }
+
+    .logo,
+    .name,
+    .title,
+    .heading {
+        font-family: var(--secondary-font);
+        font-weight: var(--font-weight);
+        letter-spacing: 15px;
+        font-size: xx-large;
+        color: var(--dark-1);
+        text-align: center;
+        margin-top: calc(max(var(--min-top-margin), var(--top-margin)) * 8);
+        margin-bottom: calc(max(var(--min-bottom-margin), var(--bottom-margin)));
+    }
+
+    .highlight {
+        -webkit-animation: 1.5s highlight 5s 1 normal forwards;
+        animation: 1.5s highlight 5s 1 normal forwards;
+        background-color: none;
+
+        background: linear-gradient(104deg,
+                rgba(130, 255, 173, 0) 0.9%,
+                rgba(130, 255, 173, 1.25) 2.4%,
+                rgba(130, 255, 173, 0.5) 5.8%,
+                rgba(130, 255, 173, 0.1) 93%,
+                rgba(130, 255, 173, 0.7) 96%,
+                rgba(130, 255, 1732, 0) 98%),
+            linear-gradient(183deg,
+                rgba(130, 255, 173, 0) 0%,
+                rgba(130, 255, 173, 0.3) 7.9%,
+                rgba(130, 255, 173, 0) 15%);
+        padding: 0.6em 13.7px;
+        -webkit-box-decoration-break: clone;
+        margin: 0;
+        text-shadow: -12px 12px 9.8px rgba(130, 255, 173, 0.7),
+            21px -18.1px 7.3px rgba(255, 255, 255, 1),
+            -18.1px -27.3px 30px rgba(255, 255, 255, 1);
+        background-size: 200% 100%;
+        background-position: 100% 0;
+        border-radius: 0.8em 0.3em;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+    }
+
+    @-webkit-keyframes highlight {
+        to {
+            background-position: 0 0;
+        }
+    }
+
+    @keyframes highlight {
+        to {
+            background-position: 0 0;
+        }
+    }
+
+    .logo,
+    .name,
+    .title,
+    .heading,
+    .menu {
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .name {
+        font-size: large !important;
+        letter-spacing: 10px !important;
+        font-weight: 300;
+    }
+
+    .familyname {
+        color: var(--dark-grey);
+    }
+
+    .styled-line {
+        margin-top: 50px;
+    }
+
+    .styled-line:before {
+        width: 28px;
+        height: 5px;
+        display: block;
+        content: "";
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        margin-left: -14px;
+        background-color: #b80000;
+    }
+
+    .styled-line:after {
+        width: 100px;
+        height: 1px;
+        display: block;
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        margin-top: 50px;
+        left: 50%;
+        margin-left: -50px;
+        background-color: #b80000;
+    }
+
+    .title {
+        font-size: small;
+        letter-spacing: 5px !important;
+        font-weight: 400;
+        color: grey;
+    }
+
+    .heading {
+        font-size: small;
+        font-weight: 500;
+        letter-spacing: 5px !important;
+    }
+
+    .title::before {
+        white-space: pre;
+        content: "\a";
+    }
+
+    /* >>text alignment*/
+    .text-align-left {
+        text-align: left;
+    }
+
+    .text-align-center {
+        text-align: center;
+    }
+
+    .text-align-right {
+        text-align: right;
+    }
+
+    .text-align-justify {
+        text-align: justify;
+    }
+
+    /* >>animation styles */
+    .fade-in-bottom {
+        -webkit-animation: fade-in-bottom 10s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+        animation: fade-in-bottom 10s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    }
+
+    @-webkit-keyframes fade-in-bottom {
+        0% {
+            -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes fade-in-bottom {
+        0% {
+            -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
