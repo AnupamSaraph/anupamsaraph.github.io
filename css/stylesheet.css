@@ -30,7 +30,7 @@
 
     html,
     body {
-        height: max-content;
+        height: fit-content;
         width: 100vw;
     }
 
@@ -91,6 +91,12 @@
     .bodytext {
         font-family: var(--secondary-font);
         font-size: large;
+        letter-spacing: 120%;
+        font: 400;
+        line-height: 145%;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "kern";
+        /* text-align: justify; */
     }
 
     .flex-item>h1 {
