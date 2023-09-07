@@ -286,3 +286,12 @@
             opacity: 1;
         }
     }
+
+    /* Third party */
+    .calendly-badge-widget {
+        left: 50% !important;
+        margin-left: -140px !important;
+        width: max-content !important;
+        height: max-content !important;
+        min-height: max-content !important;
+    }
