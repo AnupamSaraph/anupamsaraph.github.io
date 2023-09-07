@@ -50,6 +50,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: auto;
         transition: z-index 0s 1s;
     }
 
@@ -59,7 +60,6 @@
         margin-left: calc(max(var(--min-left-margin), var(--left-margin)));
         margin-right: calc(max(var(--min-right-margin), var(--right-margin)));
     }
-
 
     @media (max-width: 600px) {
         .flex-item {
@@ -125,7 +125,7 @@
         font-size: xx-large;
         color: var(--dark-1);
         text-align: center;
-        margin-top: calc(max(var(--min-top-margin), var(--top-margin)) * 8);
+        margin-top: calc(max(var(--min-top-margin), var(--top-margin)) * 4);
         margin-bottom: calc(max(var(--min-bottom-margin), var(--bottom-margin)));
     }
 
@@ -288,6 +288,8 @@
     }
 
     /* Third party */
+
+    /* to center the button */
     .calendly-badge-widget {
         left: 50% !important;
         margin-left: -140px !important;
@@ -295,3 +297,51 @@
         height: max-content !important;
         min-height: max-content !important;
     }
+
+    /* to left align the button */
+    /*.calendly-badge-widget {
+        right: auto !important;
+        left: 20px !important;
+    }
+    */
+
+    /* to right align the button */
+    /*
+    .calendly-badge-widget {
+        right: 10% !important;
+        left: auto !important;
+        bottom: 2% !important;
+    }
+    */
+
+    footer.flex-container {
+        position: fixed;
+        bottom: 2%;
+        right: 10%;
+        display: flex;
+        /* align-items: center; */
+    }
+
+    footer.flex-container a.item-right {
+        /* order: -1; */
+        margin-right: 10%;
+    }
+
+    @media (max-width: 600px) {
+        footer.flex-container {
+            position: fixed;
+            bottom: 2%;
+            left: 10%;
+            display: flex;
+            align-items: center;
+        }
+
+        footer.flex-container a.item-right {
+            margin-right: 10px;
+        }
+
+        .calendly-badge-widget {
+            left: auto !important;
+            margin-left: 0 !important;
+            width: 60% !important;
+        }
