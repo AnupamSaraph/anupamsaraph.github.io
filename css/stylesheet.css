@@ -55,7 +55,7 @@
     }
 
     .flex-item>* {
-        margin-top: calc(max(var(--min-top-margin), var(--top-margin) * 4));
+        margin-top: calc(max(var(--min-top-margin), var(--top-margin) * 2));
         margin-bottom: calc(max(var(--min-bottom-margin), var(--bottom-margin)));
         margin-left: calc(max(var(--min-left-margin), var(--left-margin)));
         margin-right: calc(max(var(--min-right-margin), var(--right-margin)));
@@ -337,7 +337,7 @@
         }
 
         footer.flex-container a.item-right {
-            margin-right: 10px;
+            margin-right: 10%;
         }
 
         .calendly-badge-widget {
