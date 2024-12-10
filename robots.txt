@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+Allow: /
+
+Sitemap: https://anupam.saraph.in/sitemap.xml
